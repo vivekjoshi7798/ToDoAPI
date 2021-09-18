@@ -27,7 +27,7 @@ public class ToDoController {
 	@RequestMapping(method = RequestMethod.GET, value = "hello")
 	public String getHello()
 	{
-		return "Hello John ! How are you ?"
+		return "Hello John ! How are you ?";
 	}
 	
 	@RequestMapping(method = RequestMethod.GET, value = "GetTasks")
